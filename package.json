@@ -1,0 +1,32 @@
+{
+  "name": "stopspent",
+  "version": "0.0.1",
+  "description": "App for controll spents and salary",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dir/index.js",
+    "dev": "nodemon dir/index.js",
+    "tcs": "tsc --watch"
+  },
+  "author": "Fran B",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "class-validator": "^0.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.0",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.3.3",
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.3.16"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.2",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.0.4"
+  }
+}
